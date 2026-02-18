@@ -13,11 +13,11 @@ game:GetService("Players").LocalPlayer.Idled:connect(function()
 end)
 wait(1)
 game.StarterGui:SetCore("SendNotification", {
-    Title = "Made by kiev";
-    Text = "Made by kiev";
+    Title = "Feito por kiev";
+    Text = "kiev mimos";
     Duration = 5;
 })
-_G.HeadSize = 70
+_G.HeadSize = 50
 _G.Disabled = true
 
 wait(1)
@@ -26,7 +26,7 @@ game.StarterGui:SetCore("SendNotification", {
     Text = "Arrasa";
     Duration = 5;
 })
-_G.HeadSize = 70
+_G.HeadSize = 50
 _G.Disabled = true
 
 game:GetService('RunService').RenderStepped:connect(function()
